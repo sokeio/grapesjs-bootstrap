@@ -1,6 +1,6 @@
 {
   "name": "grapesjs-bootstrap",
-  "version": "0.0.0",
+  "version": "0.0.0.beta.1",
   "description": "Grapesjs Bootstrap",
   "main": "dist/index.js",
   "repository": {
@@ -19,5 +19,8 @@
   "devDependencies": {
     "grapesjs-cli": "^4.1.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "raw-loader": "^4.0.2"
+  }
 }
